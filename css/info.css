@@ -1,0 +1,45 @@
+body {
+    text-align: none;
+    width: 60%;
+    background-color: ivory;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium
+    }
+
+    .title {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    a:link {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: blue;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: blue;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      @media only screen and (max-width: 600px) {
+        p {
+          width: 150%;
+        }
+        li {
+            width: 150%;
+        } 
+        img {
+          width: 150%
+        }
+    }
