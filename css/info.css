@@ -32,6 +32,10 @@ body {
         text-decoration: underline;
       }
 
+      .logo {
+        width: 35%;
+      }
+
       @media only screen and (max-width: 600px) {
         p {
           width: 150%;
@@ -40,6 +44,9 @@ body {
             width: 150%;
         } 
         img {
-          width: 150%
+          width: 150%;
+        }
+        .logo {
+          width: 125%;
         }
     }
