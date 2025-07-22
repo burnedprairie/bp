@@ -1,0 +1,111 @@
+  body {
+  background-color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  }
+
+  hr {
+    border: 1px solid white;
+  }
+
+  .important {
+    color: white;
+  }
+
+  a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  
+  .product {
+    margin-bottom: 5em;
+    min-height: 400px;
+    width: 100%;
+  }
+
+  .product-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: medium;
+    color: red;
+  }
+
+  p {
+    color: white;
+  }
+
+  div.product-image {
+    display:inline-block;
+  }
+
+
+  img {
+    width: 100%;
+    max-width: 550px;
+    border: 0px;
+    border-style: solid;
+    border-image: black;
+  }
+  
+
+  :focus {
+    outline: none !important;
+  }
+
+  .shopify-buy-frame--toggle.is-active.is-sticky {
+    border: 2px solid blue;
+    border: 2px solid black;
+    border-radius: 0px;
+    background-color: ivory;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    right: 10px;
+    top: 60px;
+  }
+
+  .shopify-buy-frame--cart {
+    background: linear-gradient(in hsl longer hue, blue, red);
+    background: none; 
+  }
+
+  .shopify-buy__product__variant-selectors {
+    width: 50%;
+    max-width: 100px;
+  }
+
+  .hibernate {
+    width: 30%;
+  }
+
+  .pumpkingif {
+    width: 3%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .hibernate {
+      width: 100%;
+    }
+
+    .pumpkingif {
+      width: 10%;
+    }
+}
