@@ -27,7 +27,7 @@
 
     <div>
         <p style="font-weight: bold; color: orangered; text-align: center;"> Halloween 2025 </p>
-        <p style="text-align: center;"> The time of year where nothing is as it screams >:) </p>
+        <p style="text-align: center;"> When nothing is as it screams >:) </p>
         <p style="text-align: center;"> Time until October 31st: </p>
         <p style="text-align: center;" id="countdown"></p>
         <script>
@@ -72,8 +72,364 @@ var x = setInterval(function() {
 
             <br>
 
-            <p> Heavy french terry fleece - oversized cut & sew zip-up </p>
             <p> Custom fall leaf plaid pattern made by us :) </p>
+            <p> Heavy french terry fleece - oversized cut & sew zip-up with pumpkin charm </p>
+
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940004475129',
+        node: document.getElementById('product-component-1757362940195'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+            
+            <div id='product-component-1757362940195'></div>
 
         
         
@@ -88,17 +444,729 @@ var x = setInterval(function() {
 
             <p> 14 oz. heavy fleece - hand printed </p>
 
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940006244601',
+        node: document.getElementById('product-component-1757363040677'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363040677'></div>
+
         
         
     </div>
 
     <div class="product">
-            <h2 class="product-title">Rising From The Soil Skirt - $80</h2>
+            <h2 class="product-title">Rising From The Soil Skirt - $75</h2>
             <div class="product-image"><img src="img/products/halloween 2025/Rising From The Soil Skirt.jpg" alt=""></div>
 
             <br>
 
             <p> 100% cotton high rise knee length skirt </p>
+
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940007522553',
+        node: document.getElementById('product-component-1757363085378'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+           <div id='product-component-1757363085378'></div> 
 
         
         
@@ -113,6 +1181,362 @@ var x = setInterval(function() {
 
             <p style=" font-weight: bold; color: yellow;"> Please allow 4-6 weeks for production </p>
             <p> 13 oz. jacquard knit </p>
+
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940008669433',
+        node: document.getElementById('product-component-1757363139628'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363139628'></div>
 
         
         
@@ -129,6 +1553,362 @@ var x = setInterval(function() {
             <p> "They said they were witches, causing fear to spread through the village. The Devil had come to Salem."  </p>
             <p> 13 oz. jacquard knit </p>
 
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940009554169',
+        node: document.getElementById('product-component-1757363179143'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363179143'></div>
+
         
         
     </div>
@@ -144,6 +1924,362 @@ var x = setInterval(function() {
             <p> 14 oz heavy fleece - hand printed and distressed </p>
             <p> *All sweatpants dyed with the same color shown in photo* </p>
 
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940010701049',
+        node: document.getElementById('product-component-1757363213418'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363213418'></div>
+
         
         
     </div>
@@ -157,6 +2293,362 @@ var x = setInterval(function() {
 
             <p> Unstructured 6 panel (cotton twill) </p>
 
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940017451257',
+        node: document.getElementById('product-component-1757363249299'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363249299'></div>
+
         
         
     </div>
@@ -169,6 +2661,362 @@ var x = setInterval(function() {
 
             <p> Unstructured 6 panel (cotton twill) </p>
 
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940018598137',
+        node: document.getElementById('product-component-1757363288746'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363288746'></div>
+
         
         
     </div>
@@ -179,8 +3027,365 @@ var x = setInterval(function() {
 
             <br>
 
-            <p> Structured Cotton Canvas </p>
             <p> Perfect for your local farmer’s market haul and more </p>
+            <p> Structured Cotton Canvas </p>
+
+
+            <script type="text/javascript">
+/*<![CDATA[*/
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'hollowpines.myshopify.com',
+      storefrontAccessToken: 'afe94baeae93e9b2cb8dadbb6af37ba4',
+    });
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('product', {
+        id: '8940019155193',
+        node: document.getElementById('product-component-1757363321228'),
+        moneyFormat: '%24%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "calc(25% - 20px)",
+                        "margin-left": "20px",
+                        "margin-bottom": "50px"
+                      },
+                      "text-align": "left"
+                    },
+                    "title": {
+                      "font-family": "Arial, sans-serif",
+                      "font-weight": "normal",
+                      "color": "#000000"
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif", //Button font//
+                      "font-size": "16px", //add to cart font size//
+                      "padding-top": "10px",
+                      "padding-bottom": "10px",
+                      "color": "white",
+                      ":hover": {
+                        "color": "yellow",
+                        "background-color": "black" //add to cart button hover color//
+                      },
+                      "background-color": "black",
+                      ":focus": {
+                        "background-color": "black"
+                      },
+                      "font-weight": "100", //add to cart button font weight//
+                      "border-radius": "0px",
+                      "border": "2px solid white", //add to cart button border//
+                      "padding-left": "25px",
+                      "padding-right": "25px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "price": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "compareAt": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "unitPrice": {
+                      "font-family": "Arial, sans-serif",
+                      "color": "#000000"
+                    },
+                    "description": {
+                      "font-family": "Arial, sans-serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    }
+                  },
+                  "contents": {
+                    "img": false,
+                    "title": false,
+                    "price": false
+                  },
+                  "text": {
+                    "button": "PURCHASE" //Button text//
+                  }
+                },
+                "productSet": {
+                  "styles": {
+                    "products": {
+                      "@media (min-width: 601px)": {
+                        "margin-left": "-20px"
+                      }
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "button": false,
+                    "buttonWithQuantity": true
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000",
+                        "background-color": "#e6e6d8"
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      },
+                      "border-radius": "0px",
+                      "padding-left": "20px",
+                      "padding-right": "20px"
+                    },
+                    "quantityInput": {
+                      "font-size": "16px",
+                      "padding-top": "16px",
+                      "padding-bottom": "16px"
+                    },
+                    "title": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "bold",
+                      "font-size": "26px",
+                      "color": "#4c4c4c"
+                    },
+                    "price": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "18px",
+                      "color": "#4c4c4c"
+                    },
+                    "compareAt": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "unitPrice": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "15.299999999999999px",
+                      "color": "#4c4c4c"
+                    },
+                    "description": {
+                      "font-family": "Helvetica Neue, sans-serif",
+                      "font-weight": "normal",
+                      "font-size": "14px",
+                      "color": "#4c4c4c"
+                    }
+                  },
+                  "text": {
+                    "button": "Add to cart"
+                  }
+                },
+                "option": {
+                  "styles": {
+                    "label": {
+                      "font-family": "Times New Roman, serif"
+                    },
+                    "select": { //Change font in size selector//
+                     "padding": "auto",
+                     "font-family": "Times New Roman, serif",
+                      "font-weight": "100",
+                     "font-size": "16px",
+                      "color": "black",
+                      "outline": "none", //Remove blue outline from size selector//
+                    }
+                  }
+                },
+                "cart": {
+                  "styles": {
+                    "button": {
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "border": "2px solid black", //Checkout button border//
+                      "padding-top": "16px",
+                      "padding-bottom": "16px",
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "blue",
+                        "background-color": "#fffff0" //Cart checkout button hover color//
+                      },
+                      "background-color": "#fffff0",
+                      ":focus": {
+                        "background-color": "#fffff0"
+                      },
+                      "border-radius": "0px"
+                    }, //Change style/color/font of cart text//
+                    "title": {
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "header": {
+                      "color": "#000000"
+                    },
+                    "lineItems": { //Change style/color/font of product title text in cart//
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold",
+                      "font-size": "16px",
+                      "color": "red"
+                    },
+                    "subtotalText": { //Change style/color/font of subtotal message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "14px",
+                      "color": "#000000"
+                    },
+                    "subtotal": { //Change style/color/font of subtotal price//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "notice": { //Change style/color/font of notice at bottom of cart//
+                      "font-family": "Times New Roman, serif",
+                      "color": "#000000"
+                    },
+                    "currency": {
+                      "color": "#000000"
+                    },
+                    "close": {
+                      "color": "black", //Change cart close button color//
+                      "outline": "none", //Remove blue outline from X (close button) in cart"
+                      ":hover": {
+                        "color": "black", //Change cart close button color when hovering//
+                      }
+                    },
+                    "empty": { //Change style/color/font of empty cart message//
+                      "font-family": "Times New Roman, serif",
+                      "font-size": "16px",
+                      "color": "#000000"
+                    },
+                    "noteDescription": {
+                      "color": "#000000"
+                    },
+                    "discountText": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "discountAmount": {
+                      "color": "#000000"
+                    },
+                    "cart": {
+                      "background-color": "#fffff0"
+                    },
+                    "footer": {
+                      "background-color": "#fffff0"
+                    }
+                  },
+                  "text": { //Cart text//
+                    "title": "",
+                    "empty": "Your cart is empty",
+                    "notice": "",
+                    "button": "CHECKOUT"
+                  },
+                  "popup": false
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "font-family": "Times New Roman, serif",
+                      "font-weight": "bold", //Cart pop out window font style//
+                      "background-color": "#fffff0",
+                      ":hover": {
+                        "background-color": "#fffff0" //Cart pop out window hover color//
+                      },
+                      ":focus": {
+                        "background-color": "#e6e6d8"
+                      }
+                    },
+                    "count": {
+                      "font-size": "20px", //Change cart quantity number size//
+                      "color": "#000000",
+                      ":hover": {
+                        "color": "#000000"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#000000"
+                    }
+                  }
+                },
+                "lineItem": { //Change style/color of everything inside upper portion of cart//
+                  "styles": {
+                    "variantTitle": {
+                      "color": "#000000"
+                    },
+                    "title": {
+                      "color": "#000000"
+                    },
+                    "price": {
+                      "font-family": "Times New Roman, serif", //Change font for price of items//
+                      "color": "#000000"
+                    },
+                    "fullPrice": {
+                      "color": "#000000"
+                    },
+                    "discount": {
+                      "color": "#000000"
+                    },
+                    "discountIcon": {
+                      "fill": "#000000"
+                    },
+                    "quantity": {
+                      "color": "#000000"
+                    },
+                    "quantityIncrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityDecrement": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    },
+                    "quantityInput": {
+                      "color": "#000000",
+                      "border-color": "#000000"
+                    }
+                  }
+                }
+              },
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
+
+            <div id='product-component-1757363321228'></div>
 
         
         
@@ -411,7 +3616,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -780,7 +3985,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -1149,7 +4354,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -1518,7 +4723,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -1887,7 +5092,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -2257,7 +5462,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -2626,7 +5831,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -2997,7 +6202,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -3366,7 +6571,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -3737,7 +6942,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -4109,7 +7314,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -4478,7 +7683,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -4848,7 +8053,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -5218,7 +8423,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -5587,7 +8792,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -5953,7 +9158,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -6327,7 +9532,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -6695,7 +9900,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -7062,7 +10267,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -7430,7 +10635,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -7797,7 +11002,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
@@ -8162,7 +11367,7 @@ var x = setInterval(function() {
                       "padding-bottom": "16px",
                       "color": "#000000",
                       ":hover": {
-                        "color": "#000000",
+                        "color": "blue",
                         "background-color": "#fffff0" //Cart checkout button hover color//
                       },
                       "background-color": "#fffff0",
